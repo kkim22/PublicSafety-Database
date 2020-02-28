@@ -12,7 +12,7 @@
 # How to run
 -Download all files that are uploaded
 
--Run code.rb to run the application
+-Run main.rb to run the application
 
 -Run test.rb to run the function tests
 
