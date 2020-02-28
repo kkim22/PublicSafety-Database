@@ -24,20 +24,6 @@
 -You can check the data type of the attributes in data.sql file
 
 -Features include
-
-## Skeleton:
-1. There are three tables (People, Car, Permit)
-2. People table has two attributes (name, Person_ID)
-3. Car table has two attributes(License_plate_num, color)
-4. Permit has three attributes(Person_ID, License_plate_num, Permit_num)
-5. User can insert, update, delete, and read these three tables
-6. When user wants to insert data in to permit table, user can find information from the People table by typing person's Person_ID, and also car from Car table by typing car's License_plate_num
-7. When user wants to delete or update from People table, Car table, or Permit table, user can type Person_ID, License_plate_num, or Permit_num according which table they choose
-8. Data that needs to be deleted from People or Car table can not be deleted if it relates to data in the Permit table
-9. No attributes can be null
-
-## Basic:
-### Further implementation of data types:
 1. When user is inserting into People table, depending either faculty or staff, user can add extra data.
 	* Extra Data: 
 	* Student table has three attributes(Person_ID, class, dorm_name)
