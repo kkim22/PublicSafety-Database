@@ -3,7 +3,7 @@
 ## Description
 It is an imitation of a database program which a college public safety offices use to manage data relating to cars, parking permits, tickets, and people data. This project has taught me how to construct a reliable database where the users can easily create, read, update, delete and search relevant data. Also, I learned the core concepts of building database and proper ways of connecting tables using primary key and foreign key.
 
--Features include
+Features include
 1. When user is inserting into People table, depending either faculty or staff, user can add extra data.
 	* Extra Data: 
 	* Student table has three attributes(Person_ID, class, dorm_name)
@@ -29,12 +29,12 @@ It is an imitation of a database program which a college public safety offices u
 
 3. From command line, 
 
-type: "ruby main.rb" to run the application
+	type: "ruby main.rb" to run the application
 
--When you log in, you need I.D. and password. (ID: 1234 Password: 1234)
+	* When you log in, you need I.D. and password. (ID: 1234 Password: 1234)
 
--You can check the data type of the attributes in data.sql file
+	* You can check the data type of the attributes in data.sql file
 
-type: "ruby test.rb"  to run the function tests
+	type: "ruby test.rb"  to run the function tests
 
-type: "ruby crud_test.rb" to run the create, read, update, and delete tests
+	type: "ruby crud_test.rb" to run the create, read, update, and delete tests
